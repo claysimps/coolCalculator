@@ -7,11 +7,19 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "postinstall": "cd ios && pod install"
   },
   "dependencies": {
+    "@react-native-community/art": "^1.2.0",
+    "@reduxjs/toolkit": "^1.4.0",
     "react": "16.13.1",
-    "react-native": "0.63.3"
+    "react-native": "0.63.3",
+    "react-native-appearance": "^0.3.4",
+    "react-native-neomorph-shadows": "^1.1.2",
+    "react-redux": "^7.2.2",
+    "reselect": "^4.0.0",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -19,7 +27,9 @@
     "@react-native-community/eslint-config": "^1.1.0",
     "@types/jest": "^25.2.3",
     "@types/react-native": "^0.63.2",
+    "@types/react-redux": "^7.1.11",
     "@types/react-test-renderer": "^16.9.2",
+    "@types/styled-components": "^5.1.4",
     "@typescript-eslint/eslint-plugin": "^2.27.0",
     "@typescript-eslint/parser": "^2.27.0",
     "babel-jest": "^25.1.0",

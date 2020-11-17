@@ -1,0 +1,1 @@
+export { neuDimensions } from './neuDimensions';
