@@ -1,0 +1,1 @@
+export { StyledBaseText } from './Text';
