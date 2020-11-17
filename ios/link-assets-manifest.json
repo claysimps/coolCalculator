@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/DS-DIGI.TTF",
+      "sha1": "1ce1ed312b41a237cb253c706290c0fd7287859d"
+    },
+    {
+      "path": "assets/fonts/DS-DIGIB.TTF",
+      "sha1": "126da1a82a1491b962982cb0be5f3d8e0b23d077"
+    },
+    {
+      "path": "assets/fonts/DS-DIGII.TTF",
+      "sha1": "d12ff73c13a5346032cdd0c737f9ed27e693a6ff"
+    },
+    {
+      "path": "assets/fonts/DS-DIGIT.TTF",
+      "sha1": "44b13f9de8eee6c1aee3601c1a7f6d662b401616"
+    }
+  ]
+}
