@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components/native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+
 import { NeuThemeProps } from '../../constants/themes/themes.types';
 
 export interface StyledThemeContainerProps extends NeuThemeProps {
@@ -13,9 +13,7 @@ const justifyCenter = css`
 export const StyledKeyboardAvoidingView = styled.KeyboardAvoidingView`
   flex: 1;
 `;
-export const StyledSafeAreaView = styled(SafeAreaView)`
-  flex: 1;
-`;
+
 export const StyledThemeContainer = styled.View<StyledThemeContainerProps>`
   flex: 1;
   align-items: center;

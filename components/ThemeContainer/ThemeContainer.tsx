@@ -1,5 +1,5 @@
 import React from 'react';
-import { TouchableWithoutFeedback, Keyboard } from 'react-native';
+import { Pressable, Keyboard } from 'react-native';
 import {
   StyledThemeContainer,
   StyledKeyboardAvoidingView,
@@ -10,11 +10,11 @@ export const ThemeContainer = ({ children, center }: ThemeContainerProps) => {
   return (
     <>
       <StyledKeyboardAvoidingView behavior="padding" enabled>
-        <TouchableWithoutFeedback onPress={Keyboard.dismiss} accessible={false}>
+        <Pressable onPress={Keyboard.dismiss} accessible={false}>
           <StyledThemeContainer center={center}>
             {children}
           </StyledThemeContainer>
-        </TouchableWithoutFeedback>
+        </Pressable>
       </StyledKeyboardAvoidingView>
     </>
   );
