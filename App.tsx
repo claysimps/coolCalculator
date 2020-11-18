@@ -1,15 +1,14 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-
 import { ThemeManager } from './components/ThemeManager';
-import { NeuButton } from './components/NeuButton';
 import { store } from './state';
+import { CalculatorScreen } from './screens/Calculator/Calculator';
 
 export const App = () => {
   return (
     <Provider store={store}>
       <ThemeManager>
-        <NeuButton value={1} onPress={() => {}} text="1" />
+        <CalculatorScreen />
       </ThemeManager>
     </Provider>
   );

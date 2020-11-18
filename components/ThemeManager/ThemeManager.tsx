@@ -8,11 +8,7 @@ import { ThemeModeEnum, setThemeMode } from '../../state/themeMode.slice';
 import { useSelector } from 'react-redux';
 import { getThemeMode } from '../../selectors/getThemeMode';
 import { useAppDispatch } from '../../utils/useAppDispatch';
-// import {
-//   ThemeModeEnum,
-//   defaultMode,
-//   ThemeManagerContext,
-// } from '../../contexts/ThemeManagerContext';
+import { ThemeContainer } from '../ThemeContainer';
 
 const { DARK, LIGHT, RED } = ThemeModeEnum;
 
@@ -48,6 +44,7 @@ const ManageNeuThemeProvider: FC = ({ children }) => {
     });
     getThemeAsync();
     return () => subscription.remove();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
@@ -64,6 +61,8 @@ const ManageNeuThemeProvider: FC = ({ children }) => {
 
 export const ThemeManager: FC = ({ children }) => (
   <AppearanceProvider>
-    <ManageNeuThemeProvider>{children}</ManageNeuThemeProvider>
+    <ManageNeuThemeProvider>
+      <ThemeContainer>{children}</ThemeContainer>
+    </ManageNeuThemeProvider>
   </AppearanceProvider>
 );
