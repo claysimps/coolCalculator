@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
-import { Switch, Picker, AsyncStorage } from 'react-native';
-
+import { Switch } from 'react-native';
+import { Picker } from '@react-native-community/picker';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import {
   StyledThemeContainer,
   StyledToggleText,

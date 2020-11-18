@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { useSelector } from 'react-redux';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import { getCalculatorAction } from '../../selectors/getCalculatorAction';
 import { NeuDisplay } from '../../components/NeuDisplay';
 import { StyledOutputDisplayContainer } from './OutputDisplayContainer.styles';
-import { AsyncStorage } from 'react-native';
 import { ThemeModeEnum, setThemeMode } from '../../state/themeMode.slice';
 import { useAppDispatch } from '../../utils/useAppDispatch';
 

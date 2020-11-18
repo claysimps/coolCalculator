@@ -1,6 +1,7 @@
 import React, { FC, useEffect } from 'react';
-import { StatusBar, AsyncStorage } from 'react-native';
+import { StatusBar } from 'react-native';
 import { Appearance, AppearanceProvider } from 'react-native-appearance';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import { ThemeProvider } from 'styled-components/native';
 import { dark, light, red } from '../../constants/themes';
