@@ -4,7 +4,7 @@ export const dark = {
       canvas: '#121212',
       canvasAlt: '#A40000',
       border: '#C0CBD3',
-      borderAlt: '#121212',
+      borderAlt: '#FFF',
       borderColor: '#A40000',
     },
     fontColor: {

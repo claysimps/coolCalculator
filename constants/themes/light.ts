@@ -4,8 +4,8 @@ export const light = {
       canvas: '#ECF0F3',
       canvasAlt: '#A40000',
       border: '#C0CBD3',
-      borderAlt: '#ECF0F3',
       borderColor: '#A40000',
+      borderAlt: '#000',
     },
     fontColor: {
       primary: '#A40000',

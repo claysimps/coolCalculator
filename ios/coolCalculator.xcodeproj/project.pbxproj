@@ -20,10 +20,6 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9D1B1DF200A9C3F4535E7113 /* libPods-coolCalculator-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA35848BE799539F13CA99F /* libPods-coolCalculator-tvOSTests.a */; };
 		FB33C8CA0B868B4109F39E8C /* libPods-coolCalculator-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3E16ED6A22E9E757B815B4 /* libPods-coolCalculator-tvOS.a */; };
-		48C24CD671D243E6A2255122 /* DS-DIGI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = F9D8583474D34F1EB202DCB5 /* DS-DIGI.TTF */; };
-		1FDA95E7490443E9B5E7039D /* DS-DIGIB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = A3EE54A844E14145A0D7CE2D /* DS-DIGIB.TTF */; };
-		22D4F9E8B4DF4CEEB312E252 /* DS-DIGII.TTF in Resources */ = {isa = PBXBuildFile; fileRef = F0F6803406F146E3A6185ACE /* DS-DIGII.TTF */; };
-		FD2AD519DC1F44CAABADF836 /* DS-DIGIT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 6680FAB0C75B42A9B3E5F885 /* DS-DIGIT.TTF */; };
 		D212C59F128C4EBC9478979C /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEE9B93671814EF6815913BD /* Nunito-Black.ttf */; };
 		F25848A64B83468780453F86 /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CBD325CBF8047A1AC671ACF /* Nunito-BlackItalic.ttf */; };
 		A5A304F3084146D28C57ABDE /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 731FF7D5D0B540A5B3390E26 /* Nunito-Bold.ttf */; };
@@ -38,6 +34,8 @@
 		8E717112D39C4231B9CBC6AA /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E53C00365FE243A6A2BE8C1E /* Nunito-Regular.ttf */; };
 		FDDBF693B5FC4EF4BAD72D7A /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D2263D1996D44AEA1CB7213 /* Nunito-SemiBold.ttf */; };
 		E7DB1674321F443DB511943C /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0EF74E97A344EA5B4A7835B /* Nunito-SemiBoldItalic.ttf */; };
+		BD0D5BD1A2D14CBB9E232710 /* Goldman-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48BDD7BC8D224D35AB327E2B /* Goldman-Bold.ttf */; };
+		BFD4646D7EAB4A5A8CD4430C /* Goldman-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB0C2785AFC944D2BA846548 /* Goldman-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,10 +83,6 @@
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		ED7AE626A515B421B5A191FC /* Pods-coolCalculator-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coolCalculator-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-coolCalculator-tvOSTests/Pods-coolCalculator-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		FC3E16ED6A22E9E757B815B4 /* libPods-coolCalculator-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coolCalculator-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9D8583474D34F1EB202DCB5 /* DS-DIGI.TTF */ = {isa = PBXFileReference; name = "DS-DIGI.TTF"; path = "../assets/fonts/DS-DIGI.TTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A3EE54A844E14145A0D7CE2D /* DS-DIGIB.TTF */ = {isa = PBXFileReference; name = "DS-DIGIB.TTF"; path = "../assets/fonts/DS-DIGIB.TTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F0F6803406F146E3A6185ACE /* DS-DIGII.TTF */ = {isa = PBXFileReference; name = "DS-DIGII.TTF"; path = "../assets/fonts/DS-DIGII.TTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6680FAB0C75B42A9B3E5F885 /* DS-DIGIT.TTF */ = {isa = PBXFileReference; name = "DS-DIGIT.TTF"; path = "../assets/fonts/DS-DIGIT.TTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		EEE9B93671814EF6815913BD /* Nunito-Black.ttf */ = {isa = PBXFileReference; name = "Nunito-Black.ttf"; path = "../assets/fonts/Nunito-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		0CBD325CBF8047A1AC671ACF /* Nunito-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Nunito-BlackItalic.ttf"; path = "../assets/fonts/Nunito-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		731FF7D5D0B540A5B3390E26 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; name = "Nunito-Bold.ttf"; path = "../assets/fonts/Nunito-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
@@ -103,6 +97,8 @@
 		E53C00365FE243A6A2BE8C1E /* Nunito-Regular.ttf */ = {isa = PBXFileReference; name = "Nunito-Regular.ttf"; path = "../assets/fonts/Nunito-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		0D2263D1996D44AEA1CB7213 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; name = "Nunito-SemiBold.ttf"; path = "../assets/fonts/Nunito-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		C0EF74E97A344EA5B4A7835B /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Nunito-SemiBoldItalic.ttf"; path = "../assets/fonts/Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		48BDD7BC8D224D35AB327E2B /* Goldman-Bold.ttf */ = {isa = PBXFileReference; name = "Goldman-Bold.ttf"; path = "../assets/fonts/Goldman-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DB0C2785AFC944D2BA846548 /* Goldman-Regular.ttf */ = {isa = PBXFileReference; name = "Goldman-Regular.ttf"; path = "../assets/fonts/Goldman-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,10 +234,6 @@
 		5AAE5D13CD84495884152798 /* Resources */ = {
 			isa = "PBXGroup";
 			children = (
-				F9D8583474D34F1EB202DCB5 /* DS-DIGI.TTF */,
-				A3EE54A844E14145A0D7CE2D /* DS-DIGIB.TTF */,
-				F0F6803406F146E3A6185ACE /* DS-DIGII.TTF */,
-				6680FAB0C75B42A9B3E5F885 /* DS-DIGIT.TTF */,
 				EEE9B93671814EF6815913BD /* Nunito-Black.ttf */,
 				0CBD325CBF8047A1AC671ACF /* Nunito-BlackItalic.ttf */,
 				731FF7D5D0B540A5B3390E26 /* Nunito-Bold.ttf */,
@@ -256,6 +248,8 @@
 				E53C00365FE243A6A2BE8C1E /* Nunito-Regular.ttf */,
 				0D2263D1996D44AEA1CB7213 /* Nunito-SemiBold.ttf */,
 				C0EF74E97A344EA5B4A7835B /* Nunito-SemiBoldItalic.ttf */,
+				48BDD7BC8D224D35AB327E2B /* Goldman-Bold.ttf */,
+				DB0C2785AFC944D2BA846548 /* Goldman-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -405,10 +399,6 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				48C24CD671D243E6A2255122 /* DS-DIGI.TTF in Resources */,
-				1FDA95E7490443E9B5E7039D /* DS-DIGIB.TTF in Resources */,
-				22D4F9E8B4DF4CEEB312E252 /* DS-DIGII.TTF in Resources */,
-				FD2AD519DC1F44CAABADF836 /* DS-DIGIT.TTF in Resources */,
 				D212C59F128C4EBC9478979C /* Nunito-Black.ttf in Resources */,
 				F25848A64B83468780453F86 /* Nunito-BlackItalic.ttf in Resources */,
 				A5A304F3084146D28C57ABDE /* Nunito-Bold.ttf in Resources */,
@@ -423,6 +413,8 @@
 				8E717112D39C4231B9CBC6AA /* Nunito-Regular.ttf in Resources */,
 				FDDBF693B5FC4EF4BAD72D7A /* Nunito-SemiBold.ttf in Resources */,
 				E7DB1674321F443DB511943C /* Nunito-SemiBoldItalic.ttf in Resources */,
+				BD0D5BD1A2D14CBB9E232710 /* Goldman-Bold.ttf in Resources */,
+				BFD4646D7EAB4A5A8CD4430C /* Goldman-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
