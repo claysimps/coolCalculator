@@ -1,5 +1,5 @@
 export const typography = {
-  fontFamily: { primary: 'Nunito' },
+  fontFamily: { primary: 'Nunito', secondary: 'Goldman' },
   fontWeight: {
     extraLight: 200,
     light: 300,

@@ -4,20 +4,14 @@ import styled, { css } from 'styled-components/native';
 
 import { neuDepth, NeuDepthProps } from '../../constants/neuDepth';
 import { NeuThemeProps } from '../../constants/themes/themes.types';
-import { light, dark, red } from '../../constants/themes';
+import { light } from '../../constants/themes';
 import { StyledBaseText } from '../Text';
 import { neuDimensions } from '../../constants/neuDimensions';
 
 export interface StyledNeuButtonProps extends NeuDepthProps, NeuThemeProps {
   fill?: boolean;
-  textColor?:
-    | keyof typeof light.theme.fontColor
-    | keyof typeof dark.theme.fontColor
-    | keyof typeof red.theme.fontColor;
-  borderColor?:
-    | keyof typeof light.theme.palette
-    | keyof typeof dark.theme.palette
-    | keyof typeof red.theme.palette;
+  textColor?: keyof typeof light.theme.fontColor;
+  borderColor?: keyof typeof light.theme.palette;
   isActive?: boolean;
   double?: boolean;
 }
@@ -45,6 +39,7 @@ const doubleWidth = css<StyledNeuButtonProps>`
   width: ${doubleButton}px;
   color: ${(props) => props.theme.fontColor.secondary};
   background: ${(props) => props.theme.palette.canvasAlt};
+  border: 0.9px solid ${(props) => props.theme.palette.borderAlt};
 `;
 
 const textForDouble = css<StyledNeuButtonProps>`
@@ -65,8 +60,6 @@ export const StyledNeuButtonWrapper = styled(AnimatedNeomorph)<
   ${(props) => props.isActive && pressState};
   ${(props) => props.double && doubleWidth};
 `;
-// border: 0.3px solid
-//   ${(props) => props.theme.palette[props.borderColor || 'borderColor']};
 
 export const StyledButtonText = styled(StyledBaseText)<StyledNeuButtonProps>`
   font-size: 24px;

@@ -2,20 +2,12 @@
   "migIndex": 1,
   "data": [
     {
-      "path": "assets/fonts/DS-DIGI.TTF",
-      "sha1": "1ce1ed312b41a237cb253c706290c0fd7287859d"
+      "path": "assets/fonts/Goldman-Bold.ttf",
+      "sha1": "ccdba0cb29578ba5cc9e0516da426042df9ec2cc"
     },
     {
-      "path": "assets/fonts/DS-DIGIB.TTF",
-      "sha1": "126da1a82a1491b962982cb0be5f3d8e0b23d077"
-    },
-    {
-      "path": "assets/fonts/DS-DIGII.TTF",
-      "sha1": "d12ff73c13a5346032cdd0c737f9ed27e693a6ff"
-    },
-    {
-      "path": "assets/fonts/DS-DIGIT.TTF",
-      "sha1": "44b13f9de8eee6c1aee3601c1a7f6d662b401616"
+      "path": "assets/fonts/Goldman-Regular.ttf",
+      "sha1": "720426509d46513253a1cf5808ebc048f24d9545"
     },
     {
       "path": "assets/fonts/Nunito-Black.ttf",

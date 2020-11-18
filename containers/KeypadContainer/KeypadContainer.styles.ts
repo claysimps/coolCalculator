@@ -1,6 +1,8 @@
 import styled from 'styled-components/native';
 
 export const StyledKeypadContainer = styled.SafeAreaView`
+  flex: 5;
+  justify-content: center;
   align-content: center;
 `;
 
