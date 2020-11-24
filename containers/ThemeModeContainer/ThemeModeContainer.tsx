@@ -56,9 +56,6 @@ export const ThemeModeContainer: FC<CalculatorProps> = () => {
       />
     </StyledSwitchWrapper>
   );
-
-  // const ThemeSelector = () => {};
-
   return (
     <StyledThemeContainer>
       {themeMode === RED ? <ThemePicker /> : <ThemeSwitch />}
