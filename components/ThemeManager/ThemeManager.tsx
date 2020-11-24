@@ -13,7 +13,7 @@ import { ThemeContainer } from '../ThemeContainer';
 
 const { DARK, LIGHT, RED } = ThemeModeEnum;
 
-const ManageNeuThemeProvider: FC = ({ children }) => {
+export const ThemeManager: FC = ({ children }) => {
   const { themeMode } = useSelector(getThemeMode);
   const dispatch = useAppDispatch();
 
@@ -49,21 +49,15 @@ const ManageNeuThemeProvider: FC = ({ children }) => {
   }, []);
 
   return (
-    <ThemeProvider theme={providedTheme}>
-      <>
-        <StatusBar
-          barStyle={themeMode === DARK ? 'light-content' : 'dark-content'}
-        />
-        {children}
-      </>
-    </ThemeProvider>
+    <AppearanceProvider>
+      <ThemeProvider theme={providedTheme}>
+        <>
+          <StatusBar
+            barStyle={themeMode === DARK ? 'light-content' : 'dark-content'}
+          />
+          <ThemeContainer>{children}</ThemeContainer>
+        </>
+      </ThemeProvider>
+    </AppearanceProvider>
   );
 };
-
-export const ThemeManager: FC = ({ children }) => (
-  <AppearanceProvider>
-    <ManageNeuThemeProvider>
-      <ThemeContainer>{children}</ThemeContainer>
-    </ManageNeuThemeProvider>
-  </AppearanceProvider>
-);
